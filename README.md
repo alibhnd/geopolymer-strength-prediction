@@ -200,13 +200,12 @@ The citation will be updated after publication.
 
 ## License
 
-Add a license file before making the repository public. The MIT License is suitable for broad reuse of the code, but the license selected for the software does not automatically grant permission to redistribute third-party experimental data.
+
 
 ## Contact
 
-**Ali Behnood, Ph.D., P.E.**  
-Department of Civil Engineering  
-University of Mississippi  
+**Ali Behnood, Ph.D., MBA, P.E.**  
+behnood.al@gmail.com
 
 Questions, bug reports, and reproducibility issues may be submitted through the repository's GitHub Issues page.
 
