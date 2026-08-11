@@ -1,0 +1,67 @@
+# Operating-system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+geopolymer_env/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python packaging and testing
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller-generated files
+*.spec
+*.app/
+*.exe
+*.dmg
+*.pkg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Local configuration, credentials, and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Generated archives
+*.zip
+*.tar
+*.tar.gz
+
+# Local prediction exports
+predictions/
+outputs/local/
+
