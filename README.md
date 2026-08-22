@@ -19,32 +19,6 @@ The framework combines raw mixture variables with physics-informed descriptors, 
 - Manual and batch prediction through a desktop GUI
 - Point estimates with lower and upper 90% prediction bounds
 
-## Repository Structure
-
-```text
-geopolymer-strength-prediction/
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── notebooks/
-│   └── Master_Geopolymer_Modeling_and_Analysis.ipynb
-├── src/
-│   └── geopolymer_gui.py
-├── model/
-│   └── geopolymer_final_deployment_bundle.joblib
-├── assets/
-│   ├── background.jpg
-│   └── GUI_screenshot.png
-├── examples/
-│   ├── sample_input.xlsx
-│   └── sample_output.xlsx
-└── results/
-    ├── ALE_results.xlsx
-    ├── sensitivity_analysis.xlsx
-    └── selected_interactions.xlsx
-```
-
-The structure above is recommended. Remove any folders or filenames that are not included in the final public release.
 
 ## Installation
 
