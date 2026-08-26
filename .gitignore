@@ -1,0 +1,93 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+geopolymer_env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+Untitled*.ipynb
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+*.spec
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.autosave
+~$*
+
+# Local databases and optimization caches
+*.db
+*.sqlite
+*.sqlite3
+optuna_journal.log
+
+# Large generated model bundles
+# Publish these through a GitHub Release, Zenodo, or Git LFS.
+*.joblib
+*.pkl
+*.pickle
+
+# Local analysis caches and intermediate output
+cache/
+tmp/
+temp/
+master_results/models/
+master_results/cache/
+
+# PyInstaller-generated macOS/Windows applications
+*.app/
+*.exe
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Duplicate local copies created by browsers or operating systems
+* (1).ipynb
+* (2).ipynb
+* (3).ipynb
+* (1).xlsx
+* (2).xlsx
+* (3).xlsx
+* copy.*
+
